@@ -63,7 +63,8 @@ a {
 .quote,
 .author,
 .big,
-.small {
+.small,
+.end {
     font-family: "Hero", sans-serif;
 }
 
@@ -186,4 +187,19 @@ a {
     font-weight: 800;
     border-radius: 8px;
     width: 150px;
+    height: 50px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+}
+
+.end {
+    color: #f9faf8;
+    font-size: 18px;
+    font-weight: 300;
 }
